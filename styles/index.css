@@ -1,5 +1,7 @@
+/* OPTIONAL: Google font import */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+/* Tailwind layers MUST come first */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -15,9 +17,9 @@
     @apply inline-flex;
   }
 
-  .sticky .header-logo {
-    @apply py-5;
-  }
+  /* .sticky .header-logo {
+    @apply;
+  } */
 
   .sticky .menu-scroll.active {
     @apply opacity-70;
@@ -31,9 +33,9 @@
     @apply opacity-100;
   }
 }
-
+/* 
 @media (min-width: 1024px) {
   .header-logo {
     @apply py-2;
   }
-}
+} */
