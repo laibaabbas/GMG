@@ -16,7 +16,7 @@
   }
 
   .sticky .header-logo {
-    @apply py-5 lg:py-2;
+    @apply py-5;
   }
 
   .sticky .menu-scroll.active {
@@ -29,5 +29,11 @@
 
   input#checkboxLabel:checked ~ .box span {
     @apply opacity-100;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header-logo {
+    @apply py-2;
   }
 }
